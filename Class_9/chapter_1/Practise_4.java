@@ -1,6 +1,8 @@
-package Class_9;
+package Class_9.chapter_1;
 
-public class CH_1_Practice_4 {
+
+public class Practise_4
+{
     void cube(double s) {
         double vol = Math.pow(s, 3);
         System.out.println("Volume of Cube of Side : " + s + " is : " + vol);

@@ -1,5 +1,4 @@
 package Class_9;
-import java.util.Locale;
 import java.util.Scanner;
 import java.util.Random;
 public class Personal
@@ -28,6 +27,7 @@ public class Personal
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter Age");
         int input = scan.nextInt();
+        scan.close();
         System.out.println(input);
 
 

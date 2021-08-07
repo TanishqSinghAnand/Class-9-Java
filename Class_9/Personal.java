@@ -66,4 +66,31 @@ public class Personal
         int max = 40000;
         System.out.println(Math.floor(Math.random()*(max-min+1)+min));
     }
+    
+    void tanishq(){
+    for(int i=1;i<=5;i++){
+
+    if(i==5)  continue;
+
+    System.out.println(i);
+
+}}
+    void tsa(){
+    
+        int x = 4;
+        int y = 3;
+        int z = 6;
+        //System.out.println(j);
+        int l = 0;
+        x %=x++ + ++y;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ;
+        
+        /*
+          4  = 12 + 18
+            = 30
+        */
+        System.out.println(l);
+        l = 4;
+        l /= 3;
+        System.out.println(l);  
+    }
 }

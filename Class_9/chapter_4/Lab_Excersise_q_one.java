@@ -1,28 +1,44 @@
+package Class_9.chapter_4;
 
 import java.util.*;
 
 public class Lab_Excersise_q_one {
-    static void accept(int sales){
+    static void accept(int sales) {
         int commision = 0;
-        if(sales < 1000){
+        if (sales < 1000) {
             commision = 0;
-        }
-        else if(sales >= 1000 && sales <= 3000 ){
+        } else if (sales >= 1000 && sales <= 3000) {
             commision = 100;
-        }
-        else if(sales >= 3001 && sales <= 5000 ){
+        } else if (sales >= 3001 && sales <= 5000) {
             commision = 300;
-        }
-        else if(sales >= 5001 && sales <= 10000 ){
+        } else if (sales >= 5001 && sales <= 10000) {
             commision = 500;
-        }
-        else if(sales >= 10000 ){
+        } else if (sales >= 10000) {
             commision = 1000;
         }
         System.out.println("Commision = " + commision);
     }
 
-    public static void main(String args[]){
+    void dublob() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter sales ");
+        int sales = sc.nextInt();
+        int commision = 0;
+        if (sales < 1000) {
+            commision = 0;
+        } else if (sales >= 1000 && sales <= 3000) {
+            commision = 100;
+        } else if (sales >= 3001 && sales <= 5000) {
+            commision = 300;
+        } else if (sales >= 5001 && sales <= 10000) {
+            commision = 500;
+        } else if (sales >= 10000) {
+            commision = 1000;
+        }
+        System.out.println("Commision = " + commision);
+    }
+
+    public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         System.out.println("enter sales ");
         int a = sc.nextInt();

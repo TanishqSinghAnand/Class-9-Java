@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=DanglingElseOne
+comment1.params=marks
+comment1.target=void\ wrong(double)
+comment2.params=marks
+comment2.target=void\ correct(double)
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

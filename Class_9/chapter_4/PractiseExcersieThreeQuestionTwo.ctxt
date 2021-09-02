@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=PractiseExcersieThreeQuestionTwo
+comment1.params=sideOne\ sideTwo\ sideThree
+comment1.target=java.lang.String\ trianleTypeString(double,\ double,\ double)
+comment2.params=sideOne\ sideTwo\ sideThree
+comment2.target=void\ trianleType(double,\ double,\ double)
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

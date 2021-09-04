@@ -3,8 +3,8 @@ import java.util.*;
 
 public class Lab {
     static void read(double one, double two, double three, double four){
-        double sum_first = one + two;
-        double sum_second = three + four;
+        // double sum_first = one + two;
+        // double sum_second = three + four;
 
         // String c = (sum_first == sum_second) ? "Equal" : "Unequal";
         String c = ((one+two) == (three+four)) ? "Equal" : "Unequal";

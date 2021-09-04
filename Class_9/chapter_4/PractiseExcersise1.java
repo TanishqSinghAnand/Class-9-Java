@@ -19,6 +19,8 @@ public class PractiseExcersise1
         else if(num1 == num2){
             System.out.println(num1 + " Is equal to " + num2);
         }
+        sc.close();
+
     }
     void second(){
         Scanner sc = new Scanner(System.in);
@@ -26,6 +28,7 @@ public class PractiseExcersise1
         int num1 = sc.nextInt();
         if(num1 % 5 == 0){
             System.out.println(num1 + " is divisible by 0");
+            sc.close();
         }
     }
     void third(){
@@ -39,9 +42,11 @@ public class PractiseExcersise1
         } else {
             System.out.println(num1 + " Is not divisble by " + num2);
         }
+        sc.close();
+
     }
     void forth(){
-
+        System.out.println("4");
     }
     public static void main(String args[]){
         first();

@@ -40,6 +40,7 @@ public class PractiseExcersieThreeQuestionThree {
             System.out.println("Sales cant be negative mf");
         }
         System.out.println("Commision = " + commision);
+        sc.close();
     }
     
     public static void main(String args[]){

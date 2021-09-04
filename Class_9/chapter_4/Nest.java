@@ -20,6 +20,7 @@ public class Nest
             grade = "Well tried";
         }
         System.out.println(grade);
+        sc.close();
         
     }
 }

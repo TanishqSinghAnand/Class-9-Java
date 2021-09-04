@@ -5,7 +5,7 @@ public class MathClass
     static void math(){
         double x = 16;
         double y = 27;
-        double z = 16;
+        // double z = 16;
 
         System.out.println("Max of x and y is : " + Math.max(x,y));
 

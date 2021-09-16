@@ -20,7 +20,7 @@ public class PractiseExcersieThreeQuestionTwo {
             System.out.println("Isosceles");
         } else {
             System.out.println("Scalene");
-        }
+        }  
     }
 
     public static void main(String args[]) {

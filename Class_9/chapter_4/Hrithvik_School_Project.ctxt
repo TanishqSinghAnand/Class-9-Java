@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Hrithvik_School_Project
+comment1.params=side
+comment1.target=void\ p1q1(double)
+comment2.params=p\ r\ t
+comment2.target=void\ p1q2(double,\ double,\ double)
+comment3.params=days
+comment3.target=void\ p1q3(int)
+comment4.params=num1\ num2
+comment4.target=void\ p1q4(double,\ double)
+comment5.params=num1\ num2\ num3\ num4
+comment5.target=void\ p1q5(double,\ double,\ double,\ double)
+comment6.params=
+comment6.target=void\ p2q1()
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+numComments=8

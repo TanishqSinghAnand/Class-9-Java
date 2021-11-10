@@ -19,23 +19,32 @@ public class Lab_Excersise_q_one {
         System.out.println("Commision = " + commision);
     }
 
-    void dublob() {
+    void read() {
         Scanner sc = new Scanner(System.in);
         System.out.println("enter sales ");
         int sales = sc.nextInt();
         int commision = 0;
         if (sales < 1000) {
             commision = 0;
+            System.out.println("Commision = " + commision);
         } else if (sales >= 1000 && sales <= 3000) {
             commision = 100;
+            System.out.println("Commision = " + commision);
         } else if (sales >= 3001 && sales <= 5000) {
             commision = 300;
+            System.out.println("Commision = " + commision);
         } else if (sales >= 5001 && sales <= 10000) {
             commision = 500;
+            System.out.println("Commision = " + commision);
         } else if (sales >= 10000) {
             commision = 1000;
+            System.out.println("Commision = " + commision);
+        } else if (sales < 0) {
+            commision = 0;
+            System.out.println("Sales cant be negative");
+        } else {
+            System.out.println("Invalid input");
         }
-        System.out.println("Commision = " + commision);
     }
 
     public static void main(String args[]) {

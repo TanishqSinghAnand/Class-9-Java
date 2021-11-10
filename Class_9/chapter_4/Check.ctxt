@@ -1,5 +1,7 @@
 #BlueJ class context
 comment0.target=Check
-comment1.params=
-comment1.target=void\ main()
-numComments=2
+comment1.params=num1\ num2
+comment1.target=double\ greater(double,\ double)
+comment2.params=
+comment2.target=void\ main()
+numComments=3

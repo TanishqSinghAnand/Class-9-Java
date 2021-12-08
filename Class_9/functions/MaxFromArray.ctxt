@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=MaxFromArray
+comment1.params=NoOfElementsToFind\ marks
+comment1.target=double[]\ max(int,\ double[])
+numComments=2

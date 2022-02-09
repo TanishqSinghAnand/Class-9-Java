@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Triangle
+comment1.params=total
+comment1.target=void\ rightAngledTriangle(int)
+comment2.params=total
+comment2.target=void\ equilateralTriangle(int)
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Pg190
+comment1.params=
+comment1.target=void\ first()
+comment2.params=total
+comment2.target=void\ second(int)
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

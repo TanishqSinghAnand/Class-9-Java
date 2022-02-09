@@ -1,7 +1,9 @@
 package Class_9.chapter_7;
+
 import java.util.*;
+
 public class LcmFinder {
-    static void read(){
+    static void read() {
         double i, a, b, hcf, lcm = 0;
         hcf = 0;
 
@@ -20,7 +22,7 @@ public class LcmFinder {
         }
         lcm = (a * b) / hcf;
         System.out.println("The lcm of " + a + " and " + b + " is " + lcm);
-        
+
     }
 
     public static void main(String[] args) {

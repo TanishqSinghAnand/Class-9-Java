@@ -55,11 +55,13 @@ public class PractiseExcersise1 {
     }
 
     static void six() {
-        int smallest = Integer.MAX_VALUE;
+        Scanner sc = new Scanner(System.in);
+
+        int smallest = Integer.MAX_VALUE; 
         for (int i = 1; i <= 10; i++) {
-            System.out.println("Enter number " + i + " : ");
-            int num = sc.nextInt();
-            if (num < smallest) {
+            System.out.println("Enter number ");
+            int num = sc.nextInt(); // 15
+            if (num < smallest) { // hai
                 smallest = num;
             }
         }
@@ -110,7 +112,7 @@ public class PractiseExcersise1 {
     }
 
     public static void main(String[] args) {
-        seven();
+        six();
     }
 }
 

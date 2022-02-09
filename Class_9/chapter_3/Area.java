@@ -8,8 +8,8 @@ public class Area
         Scanner sc = new Scanner(System.in);
         
         System.out.println("Enter radius :");
-        var radius = sc.nextDouble();
-        var area = 3.14 * radius * radius;
+        double radius = sc.nextDouble();
+        double area = 3.14 * radius * radius;
         System.out.println("Area : " + area);
     }
 }
